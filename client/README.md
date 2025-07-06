@@ -1,44 +1,70 @@
-# Chatting-website
+# Getting Started with Create React App
 
-**Realtime Chatting Website**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is a full-stack chatting website built using ReactJS, Tailwind CSS, Node.js, Express.js, MongoDB, JSON Web Tokens, and Socket.IO. It provides users with real-time communication capabilities in a modern and responsive user interface.
+## Available Scripts
 
-**Features:**
+In the project directory, you can run:
 
-- **Real-time Chatting:** Utilizes WebSocket with Socket.IO for seamless real-time communication between users.
-- **User Authentication:** Implements a custom user authentication system using JSON Web Tokens for secure login and session management.
-- **Responsive Design:** Built with ReactJS and Tailwind CSS, ensuring a responsive and mobile-friendly user experience.
-- **Data Persistence:** Stores user information and chat messages in MongoDB for data persistence and retrieval.
-- **Scalability:** Designed with scalability in mind, allowing for potential future enhancements and increased user load.
+### `npm start`
 
-**Technologies Used:**
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Frontend: ReactJS, Tailwind CSS
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- Real-time Communication: Socket.IO
-- Authentication: JSON Web Tokens (JWT)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**How to Use:**
+### `npm test`
 
-1. Clone the repository to your local machine.
-2. Install dependencies using `npm install`.
-3. Configure MongoDB connection in the backend.
-4. Run the backend server using `npm start` in the `/backend` directory.
-5. Run the frontend development server using `npm start` in the `/frontend` directory.
-6. Access the application in your browser at `http://localhost:3000`.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**Sign-up page**
-![Screenshot 2024-05-05 2053500](https://github.com/harshsrivastava05/Chatting-website/assets/130855160/255386f0-3a23-4269-bb15-f561f06601fd)
+### `npm run build`
 
-**Sign-in page**
-![Screenshot 2024-05-05 2053245](https://github.com/harshsrivastava05/Chatting-website/assets/130855160/f8db1840-729a-4522-abef-725c560b4abd)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Home page**
-![Screenshot 2024-05-06 001601](https://github.com/harshsrivastava05/Chatting-website/assets/130855160/58689c97-7e89-4c5c-9491-dc617dc37098)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**Sending chats**
-![Screenshot 2024-05-06 000248](https://github.com/harshsrivastava05/Chatting-website/assets/130855160/4c2dfeb4-fc53-438a-8c29-96b6e6ae43c0)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
